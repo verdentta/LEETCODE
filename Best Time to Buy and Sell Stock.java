@@ -2,7 +2,7 @@ class Solution {
     public int maxProfit(int[] prices) {
         /*  
             The bread and butter to this problem is just tracking the minimum price. That's it :) 
-            Initially this code ran at O(n^2) but thanks to leetcode and how they give you cases up to prices.length <= 105
+            Initially this code ran at O(n^2) but thanks to leetcode and how they give you cases up to prices.length <= 10^5
             O(n^2) will time out so you have to optimize further :)
 
             As I said before, you essentially have to track the minimum price, then check accordiningly to see if you have 
